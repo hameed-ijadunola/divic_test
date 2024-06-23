@@ -120,7 +120,7 @@ const Onboarding = () => {
           margin: 0,
           ...(Platform.OS == 'android' && {
             position: 'absolute',
-            paddingBottom: 20,
+            paddingBottom: 0,
           }),
         }}>
         <Col
@@ -129,7 +129,7 @@ const Onboarding = () => {
           style={{
             bottom: 0,
             width: '100%',
-            height: height - 53,
+            height: height - 35,
             borderTopEndRadius: 12,
             borderTopStartRadius: 12,
           }}>
