@@ -1,0 +1,25 @@
+{
+  "cli": {
+    "version": ">= 9.2.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://shippex-demo.bc.brandimic.com/api/method/"
+      }
+    },
+    "production": {
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://shippex-demo.bc.brandimic.com/api/method/"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
